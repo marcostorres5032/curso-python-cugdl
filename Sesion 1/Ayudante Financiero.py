@@ -11,7 +11,7 @@ print("Tu presupuesto es de $", presupuesto, "pesos.")
 print("Tu gasto total es de $", gasto_total, "pesos.")
 # 3.2 Parametros if para mostrar resultados y recomendaciones
 if dinero_restante > 0:
-    print("Te quedan $", dinero_restante, "peso(s) después de cubrir tus gastos.")
+    print("Te queda(n) $", dinero_restante, "peso(s) después de cubrir tus gastos.")
     if dinero_restante >= 100:
         print("¡Buen trabajo! Tienes un buen margen de ahorro!") 
     if dinero_restante < 100:
