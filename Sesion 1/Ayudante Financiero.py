@@ -19,5 +19,4 @@ if dinero_restante > 0:
 if dinero_restante < 0:
     print("No puedes cubrir estos gastos")
 if dinero_restante == 0:
-    print("No te queda dinero después de cubrir tus gastos.")
     print("Gastaste todo tu dinero. Intenta ahorrar un poco a la próxima.")
